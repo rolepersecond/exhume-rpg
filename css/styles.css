@@ -1,0 +1,205 @@
+/***Colores
+
+Negro = #242423
+Amarillo = #F5CB5C
+Blanco Brillante = #E8EDDF
+Blanco Oscuro = #CFDBD5
+
+***/
+
+/******TAGS******/
+body {
+    margin: 0;
+    background-color: #333533;
+}
+
+h1 {
+    font-family: 'Germania One', cursive;
+    color: #F5CB5C;
+    font-size: 3rem;
+}
+
+p {
+    font-family: 'BIZ UDPMincho', serif;
+    color: #E8EDDF;
+    letter-spacing: 0.125rem;
+    line-height: 1.25rem;
+}
+
+a {
+    font-weight: bold;
+    color: #F5CB5C;
+    text-decoration: none;
+    
+}
+
+a:hover{
+    color: #CFDBD5;
+}
+
+dl {
+    font-family: 'BIZ UDPMincho', serif;
+    color: #E8EDDF;
+    letter-spacing: 0.125rem;
+    line-height: 1.25rem;
+    width: 90%;
+    margin: 0;
+    padding: 5px;
+}
+
+dt {
+    font-weight: bold;
+    margin: 20px auto;
+}
+/******CLASS******/
+.bold {
+    font-weight: bold;
+}
+
+.header {
+    width: 100%;
+    background-image: url("../img/Landing_page.jpg");
+    background-color: #E8EDDF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.headlogo {
+    display: inline-block;
+    width: 80%;
+}
+
+/**********CONTENT BOX**********/
+
+
+.content {
+    position: relative;
+    background-color: #E8EDDF;
+    width: 100%;
+}
+
+/**********INFO**********/
+.info {
+    position: relative;
+    background-color: #242423;
+    width: 100%;
+    padding: 80px 0px;
+    overflow: auto;
+}
+
+.dragon {
+    float: left;
+    width: 30%;
+    border-radius: 20%;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.p_info {
+    width: 90%;
+    margin-left: 20px;
+}
+/**********PRODUCTS**********/
+
+
+.protucs {
+    position: relative;
+    background-color: #E8EDDF;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.prox_h {
+    margin: 0 auto;
+    color: #242423;
+    width: 90%;
+}
+
+.prox_p {
+    color: #242423;
+    width: 90%;
+    margin: 30px auto;
+}
+
+.btn {
+    background-color: #f5cc5c;
+    border-radius: 19px;
+    display: inline-block;
+    cursor: pointer;
+    color: #242423;
+    font-family: 'Germania One', cursive;
+    font-size: 20px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+    margin: 20px auto;
+}
+
+.btn:hover {
+    background-color: #cfdbd5;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+/******FAQS******/
+.faqs {
+    width: 100%;
+    background-color: #242423;
+    padding: 80px 0px;
+    position: relative;
+}
+
+.faqs_h1 {
+    padding-left: 30px;
+}
+
+.faqs_list {
+    padding-left: 30px;
+}
+
+/******FOOTER******/
+
+.footer {
+    width: 100%;
+    height: 120px;
+    background-color: #333533;
+    padding: 20px 0px;
+    position: relative;
+}
+
+.footer_caja1 {
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.footer_caja2 {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.footer_font {
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 20px;
+}
+
+.footer_rps {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.footer_dc {
+    width: 20%;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+
+/******ID******/
